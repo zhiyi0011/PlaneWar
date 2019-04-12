@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url("../img/bg_battle3.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+#top {
+    width: 132px;
+    height: 71px;
+    margin: 0 auto;
+}
+
+#top a {
+    text-decoration: none;
+}
+
+#top input[type=button] {
+    width: 132px;
+    height: 71px;
+    background: url("../img/button.png");
+    color: #fff;
+    font-family: "宋体";
+    font-size: 17px;
+    border: none;
+}
+
+#box {
+    width: 500px;
+    height: 650px;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+}
+
+.beijing {
+    height: 651px;
+    width: 500px;
+    background-image: url("../img/bg2.jpg");
+    background-size: 500px 650px;
+    margin: 0 auto;
+    position: absolute
+}
+
+#bj1 {
+    top: 0;
+}
+
+#bj2 {
+    top: -650px;
+}
+
+#feiji {
+    width: 90px;
+    height: 70px;
+    background-image: url("../img/plane_003.png");
+    position: absolute;
+    top: 510px;
+    left: 210px;
+    background-size: 90px 70px;
+}
+
+.zidan {
+    height: 55px;
+    width: 46px;
+    background-image: url("../img/bullet_001.png");
+    position: absolute;
+    background-size: 55px 46px;
+}
+
+.diji {
+    width: 60px;
+    height: 45px;
+    background-image: url("../img/enemy_plane_003.png");
+    position: absolute;
+    background-size: 60px 45px;
+}
+
+#over {
+    width: 280px;
+    height: 230px;
+    background-image: url("../img/game_over.jpg");
+    background-size: 280px 230px;
+    position: absolute;
+    top: 215px;
+    left: 110px;
+    display: none;
+    z-index: 1;
+}
+
+/*计分*/
+#jishu {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 25px;
+    color: white;
+}
+
